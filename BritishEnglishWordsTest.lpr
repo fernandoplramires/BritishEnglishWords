@@ -3,8 +3,6 @@ program BritishEnglishWordsTest;
 function convert(Number:LongInt):string;
 external 'BritishEnglishWords.dll';
 
-var
-  Output: string;
 begin
   Writeln(-1, ' - ', convert(-1));
   Writeln(0, ' - ', convert(0));
